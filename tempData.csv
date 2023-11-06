@@ -1,0 +1,435 @@
+﻿Continent,Year,Temp
+World,1961,0.211
+World,1962,0.038
+World,1963,0.168
+World,1964,-0.246
+World,1965,-0.223
+World,1966,0.201
+World,1967,-0.117
+World,1968,-0.126
+World,1969,-0.092
+World,1970,0.15
+World,1971,-0.093
+World,1972,-0.199
+World,1973,0.269
+World,1974,-0.181
+World,1975,0.088
+World,1976,-0.314
+World,1977,0.269
+World,1978,0.001
+World,1979,0.226
+World,1980,0.332
+World,1981,0.443
+World,1982,0.086
+World,1983,0.46
+World,1984,0.127
+World,1985,-0.031
+World,1986,0.242
+World,1987,0.403
+World,1988,0.558
+World,1989,0.331
+World,1990,0.639
+World,1991,0.468
+World,1992,0.184
+World,1993,0.348
+World,1994,0.507
+World,1995,0.835
+World,1996,0.355
+World,1997,0.656
+World,1998,0.993
+World,1999,0.783
+World,2000,0.728
+World,2001,0.834
+World,2002,1.021
+World,2003,0.893
+World,2004,0.913
+World,2005,1.095
+World,2006,0.998
+World,2007,1.195
+World,2008,0.935
+World,2009,0.957
+World,2010,1.219
+World,2011,0.921
+World,2012,1.074
+World,2013,1.016
+World,2014,1.053
+World,2015,1.412
+World,2016,1.66
+World,2017,1.429
+World,2018,1.29
+World,2019,1.444
+World,2020,1.711
+World,2021,1.447
+World,2022,1.394
+Africa,1961,-0.024
+Africa,1962,-0.036
+Africa,1963,0.07
+Africa,1964,-0.146
+Africa,1965,-0.196
+Africa,1966,0.137
+Africa,1967,-0.216
+Africa,1968,-0.223
+Africa,1969,0.357
+Africa,1970,0.215
+Africa,1971,-0.208
+Africa,1972,-0.003
+Africa,1973,0.372
+Africa,1974,-0.232
+Africa,1975,-0.225
+Africa,1976,-0.249
+Africa,1977,0.236
+Africa,1978,0.084
+Africa,1979,0.443
+Africa,1980,0.367
+Africa,1981,0.116
+Africa,1982,0.235
+Africa,1983,0.427
+Africa,1984,0.353
+Africa,1985,0.306
+Africa,1986,0.295
+Africa,1987,0.697
+Africa,1988,0.618
+Africa,1989,-0.007
+Africa,1990,0.562
+Africa,1991,0.387
+Africa,1992,0.089
+Africa,1993,0.383
+Africa,1994,0.397
+Africa,1995,0.55
+Africa,1996,0.503
+Africa,1997,0.564
+Africa,1998,0.94
+Africa,1999,0.635
+Africa,2000,0.452
+Africa,2001,0.648
+Africa,2002,0.878
+Africa,2003,0.989
+Africa,2004,0.817
+Africa,2005,1.055
+Africa,2006,0.908
+Africa,2007,0.784
+Africa,2008,0.717
+Africa,2009,0.953
+Africa,2010,1.485
+Africa,2011,0.914
+Africa,2012,0.757
+Africa,2013,0.999
+Africa,2014,1.005
+Africa,2015,1.184
+Africa,2016,1.381
+Africa,2017,1.17
+Africa,2018,1.176
+Africa,2019,1.284
+Africa,2020,1.216
+Africa,2021,1.407
+Africa,2022,1.008
+North America,1961,0.025
+North America,1962,-0.057
+North America,1963,0.375
+North America,1964,-0.281
+North America,1965,-0.593
+North America,1966,-0.183
+North America,1967,-0.194
+North America,1968,0.197
+North America,1969,-0.135
+North America,1970,0.194
+North America,1971,-0.226
+North America,1972,-1.031
+North America,1973,0.129
+North America,1974,-0.377
+North America,1975,-0.096
+North America,1976,-0.023
+North America,1977,0.743
+North America,1978,-0.296
+North America,1979,-0.246
+North America,1980,0.672
+North America,1981,1.194
+North America,1982,-0.512
+North America,1983,0.469
+North America,1984,0.03
+North America,1985,-0.152
+North America,1986,0.295
+North America,1987,1.108
+North America,1988,0.837
+North America,1989,0.139
+North America,1990,0.36
+North America,1991,0.418
+North America,1992,0.22
+North America,1993,0.149
+North America,1994,0.451
+North America,1995,0.767
+North America,1996,-0.056
+North America,1997,0.405
+North America,1998,1.866
+North America,1999,1.217
+North America,2000,1.141
+North America,2001,1.102
+North America,2002,0.752
+North America,2003,1.142
+North America,2004,0.688
+North America,2005,1.232
+North America,2006,1.693
+North America,2007,1.242
+North America,2008,0.541
+North America,2009,0.476
+North America,2010,1.833
+North America,2011,1.003
+North America,2012,1.793
+North America,2013,0.909
+North America,2014,0.416
+North America,2015,1.357
+North America,2016,2.3
+North America,2017,1.452
+North America,2018,0.877
+North America,2019,1.194
+North America,2020,1.227
+North America,2021,1.844
+North America,2022,1.246
+South America,1961,0.125
+South America,1962,-0.13
+South America,1963,0.15
+South America,1964,-0.187
+South America,1965,-0.007
+South America,1966,0.007
+South America,1967,0.005
+South America,1968,-0.172
+South America,1969,0.358
+South America,1970,0.181
+South America,1971,-0.268
+South America,1972,0.086
+South America,1973,0.255
+South America,1974,-0.195
+South America,1975,-0.152
+South America,1976,-0.223
+South America,1977,0.292
+South America,1978,0.141
+South America,1979,0.133
+South America,1980,0.331
+South America,1981,0.216
+South America,1982,0.288
+South America,1983,0.473
+South America,1984,0.139
+South America,1985,0.126
+South America,1986,0.274
+South America,1987,0.646
+South America,1988,0.292
+South America,1989,0.178
+South America,1990,0.385
+South America,1991,0.429
+South America,1992,0.285
+South America,1993,0.387
+South America,1994,0.542
+South America,1995,0.649
+South America,1996,0.425
+South America,1997,0.717
+South America,1998,0.996
+South America,1999,0.358
+South America,2000,0.289
+South America,2001,0.615
+South America,2002,0.826
+South America,2003,0.8
+South America,2004,0.69
+South America,2005,0.84
+South America,2006,0.735
+South America,2007,0.627
+South America,2008,0.628
+South America,2009,0.892
+South America,2010,0.861
+South America,2011,0.704
+South America,2012,0.885
+South America,2013,0.751
+South America,2014,1.023
+South America,2015,1.332
+South America,2016,1.172
+South America,2017,1.174
+South America,2018,0.982
+South America,2019,1.25
+South America,2020,1.405
+South America,2021,1.063
+South America,2022,0.807
+Asia,1961,0.047
+Asia,1962,-0.011
+Asia,1963,0.279
+Asia,1964,-0.174
+Asia,1965,-0.031
+Asia,1966,0.325
+Asia,1967,-0.311
+Asia,1968,-0.34
+Asia,1969,-0.017
+Asia,1970,0.07
+Asia,1971,-0.127
+Asia,1972,-0.171
+Asia,1973,0.241
+Asia,1974,-0.138
+Asia,1975,0.015
+Asia,1976,-0.333
+Asia,1977,0.097
+Asia,1978,0.166
+Asia,1979,0.459
+Asia,1980,0.291
+Asia,1981,0.216
+Asia,1982,0.13
+Asia,1983,0.001
+Asia,1984,-0.107
+Asia,1985,0.029
+Asia,1986,0.071
+Asia,1987,0.424
+Asia,1988,0.446
+Asia,1989,0.28
+Asia,1990,0.537
+Asia,1991,0.415
+Asia,1992,-0.037
+Asia,1993,0.099
+Asia,1994,0.548
+Asia,1995,0.643
+Asia,1996,0.201
+Asia,1997,0.637
+Asia,1998,1.07
+Asia,1999,1.11
+Asia,2000,0.7
+Asia,2001,1.038
+Asia,2002,1.19
+Asia,2003,0.666
+Asia,2004,1.109
+Asia,2005,0.882
+Asia,2006,1.128
+Asia,2007,1.207
+Asia,2008,0.895
+Asia,2009,1.096
+Asia,2010,1.278
+Asia,2011,0.728
+Asia,2012,0.726
+Asia,2013,1.08
+Asia,2014,0.934
+Asia,2015,1.314
+Asia,2016,1.485
+Asia,2017,1.486
+Asia,2018,1.362
+Asia,2019,1.404
+Asia,2020,1.535
+Asia,2021,1.565
+Asia,2022,1.75
+Europe,1961,0.885
+Europe,1962,0.308
+Europe,1963,0.109
+Europe,1964,-0.52
+Europe,1965,-0.43
+Europe,1966,0.723
+Europe,1967,0.164
+Europe,1968,0.04
+Europe,1969,-1.014
+Europe,1970,0.184
+Europe,1971,0.257
+Europe,1972,-0.159
+Europe,1973,0.165
+Europe,1974,0.017
+Europe,1975,0.838
+Europe,1976,-0.566
+Europe,1977,0.182
+Europe,1978,-0.174
+Europe,1979,0.133
+Europe,1980,-0.07
+Europe,1981,0.658
+Europe,1982,0.11
+Europe,1983,0.935
+Europe,1984,0.271
+Europe,1985,-0.61
+Europe,1986,0.251
+Europe,1987,-0.566
+Europe,1988,0.492
+Europe,1989,1.034
+Europe,1990,1.256
+Europe,1991,0.593
+Europe,1992,0.469
+Europe,1993,0.749
+Europe,1994,0.696
+Europe,1995,1.828
+Europe,1996,0.569
+Europe,1997,1.095
+Europe,1998,0.185
+Europe,1999,0.586
+Europe,2000,1.341
+Europe,2001,0.95
+Europe,2002,1.504
+Europe,2003,0.968
+Europe,2004,1.278
+Europe,2005,1.531
+Europe,2006,0.672
+Europe,2007,2.307
+Europe,2008,2.022
+Europe,2009,1.237
+Europe,2010,0.815
+Europe,2011,1.546
+Europe,2012,1.79
+Europe,2013,1.115
+Europe,2014,1.834
+Europe,2015,2.118
+Europe,2016,2.292
+Europe,2017,1.972
+Europe,2018,2.013
+Europe,2019,2.101
+Europe,2020,3.356
+Europe,2021,1.603
+Europe,2022,2.23
+Oceania,1961,0.125
+Oceania,1962,0.146
+Oceania,1963,-0.098
+Oceania,1964,-0.018
+Oceania,1965,0.08
+Oceania,1966,-0.222
+Oceania,1967,-0.103
+Oceania,1968,-0.191
+Oceania,1969,0.089
+Oceania,1970,0.026
+Oceania,1971,-0.018
+Oceania,1972,0.065
+Oceania,1973,0.77
+Oceania,1974,-0.306
+Oceania,1975,0.064
+Oceania,1976,-0.504
+Oceania,1977,0.143
+Oceania,1978,0.082
+Oceania,1979,0.357
+Oceania,1980,0.816
+Oceania,1981,0.48
+Oceania,1982,0.162
+Oceania,1983,0.586
+Oceania,1984,-0.117
+Oceania,1985,0.344
+Oceania,1986,0.382
+Oceania,1987,0.362
+Oceania,1988,0.927
+Oceania,1989,0.187
+Oceania,1990,0.542
+Oceania,1991,0.758
+Oceania,1992,0.264
+Oceania,1993,0.445
+Oceania,1994,0.217
+Oceania,1995,0.419
+Oceania,1996,0.59
+Oceania,1997,0.35
+Oceania,1998,1.083
+Oceania,1999,0.579
+Oceania,2000,0.169
+Oceania,2001,0.355
+Oceania,2002,0.723
+Oceania,2003,0.797
+Oceania,2004,0.674
+Oceania,2005,1.152
+Oceania,2006,0.684
+Oceania,2007,0.881
+Oceania,2008,0.609
+Oceania,2009,0.956
+Oceania,2010,0.691
+Oceania,2011,0.238
+Oceania,2012,0.306
+Oceania,2013,1.439
+Oceania,2014,1.13
+Oceania,2015,1.017
+Oceania,2016,1.172
+Oceania,2017,1.107
+Oceania,2018,1.104
+Oceania,2019,1.371
+Oceania,2020,1.381
+Oceania,2021,0.675
+Oceania,2022,0.804
