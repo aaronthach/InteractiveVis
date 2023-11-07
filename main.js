@@ -1,4 +1,4 @@
-const width = 700;
+const width = 850;
 const height = 550;
 const yearSlider = document.getElementById('year-slider');
 const worldTemp = document.getElementById('world-temp');
@@ -6,6 +6,12 @@ const yearSelect = document.getElementById('year-select');
 const scroller = document.getElementById('scroller');
 const yearProgress = document.getElementById('year-progress');
 const yearIndicator = document.getElementById('year-indicator');
+const NA = document.getElementById('NA');
+const SA = document.getElementById('SA');
+const AF = document.getElementById('AF');
+const EU = document.getElementById('EU');
+const AS = document.getElementById('AS');
+const OC = document.getElementById('OC');
 const temperatureLookup = {};
 
 var year = 1961;
@@ -17,12 +23,12 @@ scroller.addEventListener("scroll", (event) => {
     scrollMax = scroller.scrollHeight - scroller.offsetHeight;
     console.log(scrollMax);
     scroll = scroller.scrollTop;
-    offset = Math.floor(scroll/(scrollMax/61));
+    offset = Math.ceil(scroll/(scrollMax/61));
     year = 1961 + offset;
     yearSelect.textContent = year;
     yearProgress.textContent = year;
     yearIndicator.value = (100*(offset/61));
-    updateMap();
+    updateExistingMap();
 });
 
 // define color scale for both map and legend
@@ -69,8 +75,8 @@ async function loadTemperatureData() {
     return tempData;
 }
 
-// save temp data to var
-function updateMap() {
+// create map
+function drawMap() {
     loadTemperatureData()
     .then(temperatureData => {
         // map continent name to temp in var
@@ -79,11 +85,6 @@ function updateMap() {
                 temperatureLookup[entry.Continent] = entry.Temp;
             }
         });
-
-        g.selectAll('.country')
-            .remove()
-            .transition()
-            .duration(100);
 
         // load map data
         map = d3.json('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson')
@@ -95,8 +96,6 @@ function updateMap() {
                     .append('path')
                     .attr('class', 'country')
                     .attr('d', path)
-                    // .transition()
-                    // .duration(100)
                     .style('fill', d => {
                         const continentName = d.properties.CONTINENT; // tie var to continents
                         const temperatureChange = temperatureLookup[continentName];
@@ -109,14 +108,60 @@ function updateMap() {
                     });
             });
     });
-    initialLoad = true;
 }
 
-updateMap();
+function updateExistingMap() {
+    loadTemperatureData()
+    .then(temperatureData => {
+        // map continent name to temp in var
+        temperatureData.forEach(entry => {
+            if (entry.Year == year) {
+                temperatureLookup[entry.Continent] = entry.Temp;
+
+                // update temp of continents text
+                if (entry.Continent == "North America") {
+                    NA.textContent = entry.Temp;
+                }
+                else if (entry.Continent == "South America") {
+                    SA.textContent = entry.Temp;
+                }
+                else if (entry.Continent == "Europe") {
+                    EU.textContent = entry.Temp;
+                }
+                else if (entry.Continent == "Africa") {
+                    AF.textContent = entry.Temp;
+                }
+                else if (entry.Continent == "Asia") {
+                    AS.textContent = entry.Temp;
+                }
+                else if (entry.Continent == "Oceania") {
+                    OC.textContent = entry.Temp;
+                }
+            }
+        });
+
+        // Select all existing country paths and update their fill color
+        g.selectAll('.country')
+            .transition()
+            .duration(100)
+            .style('fill', d => {
+                const continentName = d.properties.CONTINENT; // tie var to continents
+                const temperatureChange = temperatureLookup[continentName];
+                worldTemp.textContent = temperatureLookup["World"];
+                if (temperatureChange == undefined) {
+                    return 'rgb(90, 161, 242)';
+                } else {
+                    return d3.interpolateReds(temperatureChange / 2); // color in continent based on temp data
+                }
+            });
+    });
+}
+
+drawMap();
 
 yearSlider.addEventListener('input', function() {
     yearDisplay.textContent = yearSlider.value;
     yearSelect.textContent = yearSlider.value;
     year = yearSlider.value;
-    updateMap();
+    updateExistingMap();
 });
