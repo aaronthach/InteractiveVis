@@ -6,7 +6,7 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <header>Our World is Dying <span id = "hint">(Scroll through poem to see data)</span></header>
+    <header>Our World is Dying <span id = "hint">(Scroll through poem to see data)</span> <br> <span id = "author">By Aaron Thach</span></header>
     <main class = "wrapper">
         <div class = "left-column">
             <div class = "left-column-content" id = "scroller">
@@ -17,7 +17,7 @@
                     <li class="line" id="line1">The wind blows,</li>
                     <li class="line" id="line2">caressing the birds perched atop the trees.</li>
                     <li class="line" id="line3">The ocean flows, harmoniously dancing</li>
-                    <li class="line" id="line4">with the robust coral gardens in the depths of the sea.</li>
+                    <li class="line" id="line4">with the beautiful coral of the sea.</li>
                 </ul>
 
                 <div class = "filler-verse"></div>
@@ -26,7 +26,7 @@
                     <li class="line" id="line1">A powerful polar bear rests on sea ice</li>
                     <li class="line" id="line2">sleepily watching its cubs play.</li>
                     <li class="line" id="line3">An owl swoops down from the sky to catch mice</li>
-                    <li class="line" id="line4">and bring them back to its owlets before night turns to day.</li>
+                    <li class="line" id="line4">and feed its owlets before day.</li>
                 </ul>
 
                 <div class = "filler-verse"></div>
@@ -42,7 +42,7 @@
 
                 <ul class="verse" id="verse4">
                     <li class="line" id="line1">The world is warmer than it once was.</li>
-                    <li class="line" id="line2">Natural disasters are happening more often than they once were.</li>
+                    <li class="line" id="line2">Disasters are more frequent than they were.</li>
                     <li class="line" id="line3">Our world is dying and we are the cause.</li>
                     <li class="line" id="line4">We’re to blame for putting profit before her.</li>
                 </ul>
@@ -53,7 +53,7 @@
                     <li class="line" id="line1">Atmospheric carbon dioxide has increased</li>
                     <li class="line" id="line2">as the forests holding them have diminished.</li>
                     <li class="line" id="line3">We’re a savage beast,</li>
-                    <li class="line" id="line4">destroying our world while still living within it.</li>
+                    <li class="line" id="line4">destroying our world and the creatures in it.</li>
                 </ul>
 
                 <div class = "filler-verse"></div>
@@ -61,8 +61,8 @@
                 <ul class="verse" id="verse6">
                     <li class="line" id="line1">The vicious hurricane rages,</li>
                     <li class="line" id="line2">forcing the innocent birds away from their homes.</li>
-                    <li class="line" id="line3">The oceans' temperatures are higher than they’ve been in ages.</li>
-                    <li class="line" id="line4">Bleached and diseased coral will soon be dead as stone.</li>
+                    <li class="line" id="line3">Temperatures are higher than they've been in ages.</li>
+                    <li class="line" id="line4">The once robust coral will soon be dead as stone.</li>
                 </ul>
 
                 <div class = "filler-verse"></div>
@@ -71,7 +71,7 @@
                     <li class="line" id="line1">The sea ice has melted, forcing the polar bears on land.</li>
                     <li class="line" id="line2">They roam around, encounter humans and attack.</li>
                     <li class="line" id="line3">Disease strikes the mice population and</li>
-                    <li class="line" id="line4">a flood shatters the owl’s nest as night turns the sky black.</li>
+                    <li class="line" id="line4">a flood shatters the owl’s nest as the sky turns black.</li>
                 </ul>
 
                 <div class = "filler-verse"></div>
@@ -82,11 +82,10 @@
             <div class = "right-column-content">
                 <h2 class = "text">Temperature Increase of Continents in 2022 (°C)</h2>
                 <h3 class = "text">With Respect to a Baseline Climatology (1951-1980)</h3>
-                <div class = "text" id="world">World Temperature Change in <span id = "year-select">1961</span>:<strong> <span id="world-temp">0.211°C</span></strong></div>
+                <div class = "text" id="world">Temperature Change in <span id = "year-select">1961</span>: <strong>World: </strong><strong> <span id="world-temp">0.211°C</span></strong></div>
+                <div id="continentTemp"> North America: <span id = "NA">0.025</span> South America: <span id = "SA">0.125</span> Europe: <span id = "EU">0.885</span> Africa: <span id = "AF">-0.024</span> Asia: <span id = "AS">0.047</span> Oceania: <span id = "OC">0.125</span></div>
                 <br>
-                <div class = "text" id="text">Data retrieved from IMF</div>
-                <br>
-                <a class = "text" href="https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914/explore">Data Source</a>
+                <a class = "text" href="https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914/explore">Data retrieved from IMF</a>
                 <br>
                 <svg id="map-container"></svg>
             </div>
